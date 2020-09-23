@@ -19,5 +19,8 @@ from app_recetas import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('recetas', views.recetas_page_view, name='recetas')
+    path('recetas', views.recetas_page_view, name='recetas'),
+    path('canelones', views.canelones_page_view, name ='canelones'),
+    path('carbonara', views.carbonara_page_view, name ='carbonara'),
+    path('Receta_Facil', views.Receta_Facil_page_view, name ='Receta_Facil')
 ]
