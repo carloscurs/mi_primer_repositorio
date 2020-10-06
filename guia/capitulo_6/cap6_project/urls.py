@@ -15,10 +15,10 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from llistas import views
+from listas import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('anadir/', views.vista_anadir, name='anadir'),
-    path('home/', views.home_page_view, name='home'),
+    path('home/', views.home_page_view, name='home')
 ]

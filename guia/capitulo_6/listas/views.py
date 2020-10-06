@@ -21,8 +21,8 @@ def home_page_view(request):
     params = {'notas': result}
     return render(request, 'home.html', params)
 
-def anadir_page_view(request):
-    return render(request, 'anadir.html')
+#def anadir_page_view(request):
+#   return render(request, 'anadir.html')
 
 def vista_anadir(request):
     prioridad = request.POST["name_prioridad"]
@@ -32,10 +32,6 @@ def vista_anadir(request):
     conn = psycopg2.connect(dbname="capitulo_6_db",
                             user="capitulo_6_user",
                             password="patata")
-
-    prioridad = request.POST["name_prioridad"]
-    titulo = request.POST["nombre_titulo"]
-    nota = request.POST["name_contenido"]
 
     current_time = datetime.datetime.now()
     with open("debug.log", "a+") as debug_file:

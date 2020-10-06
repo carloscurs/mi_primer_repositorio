@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="07107338-b6a1-4f3c-a3b7-258da3d81994" name="Default Changelist" comment="" />
+    <list default="true" id="07107338-b6a1-4f3c-a3b7-258da3d81994" name="Default Changelist" comment="terminado cap_6.2" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -27,8 +27,14 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/guia/capitulo_7/listas/templates" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/guia/capitulo_7/listas/templates" />
+      <recent name="$PROJECT_DIR$/guia/capitulo_6/listas/templates" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -50,5 +56,9 @@
       <screen x="56" y="27" width="1864" height="1053" />
     </state>
     <state x="730" y="245" width="506" height="623" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/56.27.1864.1053@56.27.1864.1053" timestamp="1601915692622" />
+    <state x="714" y="445" width="540" height="223" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1601921933436">
+      <screen x="56" y="27" width="1864" height="1053" />
+    </state>
+    <state x="714" y="445" width="540" height="223" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/56.27.1864.1053@56.27.1864.1053" timestamp="1601921933436" />
   </component>
 </project>
